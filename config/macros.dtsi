@@ -38,35 +38,23 @@ macro_copymac: macro_copymac{
 compatible = "zmk,behavior-macro";
 label = "macro_copymac";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LGUI>
-         , <&macro_tap &kp C>
-         , <&macro_release &kp LGUI>
-         ;
+bindings = <&macro_press &kp LGUI>, <&macro_tap &kp C>, <&macro_release &kp LGUI>;
 };
 macro_cutmac: macro_cutmac{
 compatible = "zmk,behavior-macro";
 label = "macro_cutmac";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LGUI>
-         , <&macro_tap &kp X>
-         , <&macro_release &kp LGUI>
-         ;
+bindings = <&macro_press &kp LGUI>, <&macro_tap &kp X>, <&macro_release &kp LGUI>;
 };
 macro_pastemac: macro_pastemac{
 compatible = "zmk,behavior-macro";
 label = "macro_pastemac";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LGUI>
-         , <&macro_tap &kp P>
-         , <&macro_release &kp LGUI>
-         ;
+bindings = <&macro_press &kp LGUI>, <&macro_tap &kp P>, <&macro_release &kp LGUI>;
 };
 macro_undomac: macro_undomac{
 compatible = "zmk,behavior-macro";
 label = "macro_undomac";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LGUI>
-         , <&macro_tap &kp Z>
-         , <&macro_release &kp LGUI>
-         ;
+bindings = <&macro_press &kp LGUI>, <&macro_tap &kp Z>, <&macro_release &kp LGUI>;
 };
