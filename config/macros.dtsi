@@ -38,17 +38,5 @@ macro_copymac: macro_copymac{
 compatible = "zmk,behavior-macro";
 label = "macro_copymac";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LCMD>
-         , <&macro_tap &kp C>
-         , <&macro_release &kp LCMD>
-         ;
-};
-macro_cutmac: macro_cutmac{
-compatible = "zmk,behavior-macro";
-label = "macro_cutmac";
-#binding-cells = <0>;
-bindings = <&macro_press &kp LCMD>
-         , <&macro_tap &kp X>
-         , <&macro_release &kp LCMD>
-         ;
+bindings = <&macro_press &kp LGUI, <&macro_tap &kp C>, <&macro_release &kp LGUI>;
 };
